@@ -10,7 +10,10 @@
 
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';
+<<<<<<< HEAD
 import { getTokenPrice } from '../tools/getTokenPrice';
+=======
+>>>>>>> 58bbce7ff9155db472abd467950db2b3fa1b15f5
 
 const AiTradingAssistanceInputSchema = z.object({
   asset: z.string().describe('The asset to analyze (e.g., BTC, ETH).'),
@@ -34,15 +37,23 @@ const prompt = ai.definePrompt({
   name: 'aiTradingAssistancePrompt',
   input: {schema: AiTradingAssistanceInputSchema},
   output: {schema: AiTradingAssistanceOutputSchema},
+<<<<<<< HEAD
   tools: [getTokenPrice],
   prompt: `You are an AI-powered trading assistant. Generate a trading signal and insight based on the following information. Use the available tools to get real-time data if needed.
+=======
+  prompt: `You are an AI-powered trading assistant. Generate a trading signal and insight based on the following information:
+>>>>>>> 58bbce7ff9155db472abd467950db2b3fa1b15f5
 
 Asset: {{{asset}}}
 Timeframe: {{{timeframe}}}
 Strategy: {{{strategy}}}
 Risk Tolerance: {{{riskTolerance}}}
 
+<<<<<<< HEAD
 Signal:`,
+=======
+Signal:`, // The trading signal will be generated here.
+>>>>>>> 58bbce7ff9155db472abd467950db2b3fa1b15f5
 });
 
 const aiTradingAssistanceFlow = ai.defineFlow(

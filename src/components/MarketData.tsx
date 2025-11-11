@@ -6,6 +6,7 @@ const marketData = [
   { pair: "BTC/USD", price: 68123.45, change: 2.3, type: "Perpetual" },
   { pair: "ETH/USD", price: 3456.78, change: -1.2, type: "Perpetual" },
   { pair: "SOL/USD", price: 165.21, change: 5.1, type: "Perpetual" },
+<<<<<<< HEAD
   { pair: "RNDR/USD", price: 10.55, change: 8.2, type: "Perpetual" },
   { pair: "ONDO/USD", price: 1.23, change: -3.4, type: "Perpetual" },
   { pair: "WIF/USD", price: 3.88, change: 12.7, type: "Perpetual" },
@@ -14,6 +15,11 @@ const marketData = [
   { pair: "SOL-28JUN24-170-C", price: 15.60, change: 25.0, type: "Option" },
   { pair: "sDEFI", price: 543.21, change: 3.8, type: "Synthetic" },
   { pair: "sL2", price: 1289.45, change: -1.9, type: "Synthetic" },
+=======
+  { pair: "BTC-28JUN24-70000-C", price: 1234.56, change: 10.5, type: "Option" },
+  { pair: "ETH-28JUN24-3500-C", price: 234.56, change: -5.2, type: "Option" },
+  { pair: "sDEFI", price: 543.21, change: 3.8, type: "Synthetic" },
+>>>>>>> 58bbce7ff9155db472abd467950db2b3fa1b15f5
 ]
 
 const MarketData = () => {

@@ -4,11 +4,17 @@ import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
 
 const portfolioData = [
+<<<<<<< HEAD
   { asset: "BTC", amount: 0.5, value: 34061.73, pnl: 1234.56, allocation: 35 },
   { asset: "ETH", amount: 10, value: 34567.80, pnl: -543.21, allocation: 35 },
   { asset: "SOL", amount: 100, value: 16521.00, pnl: 2345.67, allocation: 15 },
   { asset: "RNDR", amount: 500, value: 5275.00, pnl: 850.75, allocation: 10 },
   { asset: "ONDO", amount: 2500, value: 3075.00, pnl: -150.25, allocation: 5 },
+=======
+  { asset: "BTC", amount: 0.5, value: 34061.73, pnl: 1234.56, allocation: 40 },
+  { asset: "ETH", amount: 10, value: 34567.80, pnl: -543.21, allocation: 40 },
+  { asset: "SOL", amount: 100, value: 16521.00, pnl: 2345.67, allocation: 20 },
+>>>>>>> 58bbce7ff9155db472abd467950db2b3fa1b15f5
 ]
 
 const Portfolio = () => {
