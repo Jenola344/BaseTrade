@@ -6,6 +6,10 @@ A perpetuals trading platform built with React and Firebase, featuring an integr
 
 BaseTrade lets you trade perpetual contracts while getting real-time insights from an AI assistant. The assistant analyzes market data, identifies patterns, and generates trading signals to help inform your decisions.
 
+**🌐 Live Demo**
+Access the live application:
+https://6000-firebase-studio-1753755880952.cluster-ikslh4rdsnbqsvu5nw3v4dqjj2.cloudworkstations.dev/
+
 
 **First Time Setup:**
 1. Create an account using email or social login
